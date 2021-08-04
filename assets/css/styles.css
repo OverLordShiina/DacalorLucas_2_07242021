@@ -1,12 +1,53 @@
+/*Color Bleu : #0065FC
+  Color Light Blue : #DEEBFF
+  Color Grey : #F2F2F2
+*/
 h1 {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 600;
 }
 h2 {
   font-family: "Raleway", sans-serif;
-  font-weight: initial;
+  font-weight: 300;
 }
 
 .navbar {
   display: flex;
+}
+
+.description {
+  display: flex;
+}
+
+.search-bar {
+  border: 2px solid lightgrey;
+  border-radius: 50px;
+  display: flex;
+  width: fit-content;
+}
+
+.filtre {
+  display: flex;
+  flex-direction: row;
+}
+
+.filtre-button {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filtre-btn {
+  display: flex;
+  justify-content: space-around;
+  border: lightgray solid 2px;
+  border-radius: 50px;
+}
+.fltr-icn {
+  color: #0065fc;
+  background-color: #deebff;
+  border-radius: 50px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
 }
