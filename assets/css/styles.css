@@ -4,11 +4,11 @@
 */
 h1 {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-weight: bold;
 }
 h2 {
   font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 .navbar {
@@ -16,7 +16,7 @@ h2 {
 }
 
 .description {
-  display: flex;
+  display: block;
 }
 
 .search-bar {
@@ -28,24 +28,38 @@ h2 {
 
 .filtre {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: bold;
 }
 
 .filtre-button {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .filtre-btn {
   display: flex;
+  height: 50px;
+  align-items: center;
   justify-content: space-around;
-  border: lightgray solid 2px;
-  border-radius: 50px;
+  border: gray solid 2px;
+  border-radius: 60px;
 }
 .fltr-icn {
-  color: #0065fc;
   background-color: #deebff;
-  border-radius: 50px;
+  color: #0065fc;
+  border-radius: 100%;
+  height: 3.25rem;
+  width: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flname {
+  margin: 0 1rem 0 1rem;
 }
 .info {
   display: flex;
