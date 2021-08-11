@@ -2,18 +2,23 @@
   Color Light Blue : #DEEBFF
   Color Grey : #F2F2F2
 */
-h1 {
+body {
   font-family: "Raleway", sans-serif;
+}
+h1 {
   font-weight: bold;
 }
 h2 {
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
 
 .navbar {
   display: flex;
   padding: 1.5rem;
+}
+.logo img {
+  height: auto;
+  width: 100px;
 }
 
 .description {
@@ -22,15 +27,16 @@ h2 {
   justify-content: space-evenly;
   padding: 1.5rem;
 }
-
+.titre-des {
+  margin-bottom: 30px;
+}
 .search-bar {
-  border: 2px lightgrey;
-  border-radius: 50px;
   display: flex;
   width: fit-content;
+  margin-bottom: 30px;
 }
 .search-icn {
-  background-color: lightgray;
+  background-color: lightgrey;
   border: 2px grey;
   height: 35px;
   width: 35px;
@@ -40,7 +46,8 @@ h2 {
   justify-content: center;
 }
 .search-bar_input {
-  border: none;
+  border: 2px lightgrey;
+  border-style: solid none;
   padding-left: 5px;
   font-weight: bold;
 }
@@ -50,7 +57,6 @@ h2 {
   font-weight: bold;
   border: none;
   border-radius: 0 10px 10px 0;
-  font-family: "Raleway", "Sans serif";
   font-size: 1rem;
   cursor: pointer;
 }
@@ -61,22 +67,24 @@ h2 {
   align-items: center;
   justify-content: flex-start;
   font-weight: bold;
+  margin-bottom: 30px;
 }
-
+.filtre h2 {
+  margin: 0 20px 10px 0;
+}
 .filtre-button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
 }
 
 .filtre-btn {
   display: flex;
   height: 50px;
   align-items: center;
-  justify-content: space-around;
   border: gray solid 2px;
   border-radius: 60px;
+  margin-right: 20px;
 }
 .fltr-icn {
   background-color: #deebff;
