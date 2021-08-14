@@ -113,3 +113,82 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+.ham {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.hebergement {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  margin-right: 30px;
+}
+.hebergement h1 {
+  margin: 20px 30px;
+}
+.hebergement h2 {
+  margin: 20px 30px;
+}
+.hbrgm_buble {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.hbrgm_buble h2 {
+  margin: 0;
+}
+.hbrgm {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border: white 5px solid;
+  border-radius: 25px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.hbrgm-pic {
+  object-fit: cover;
+  height: 100px;
+  width: auto;
+  border-radius: 25px 25px 0 0;
+}
+.populaire {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+}
+.populaire h1 {
+  margin: 20px 30px;
+}
+.populaire h2 {
+  margin: 20px 30px;
+}
+
+.ppl_buble {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.ppl_buble h2 {
+  margin: 0;
+}
+.ppl {
+  display: flex;
+  border: white 5px solid;
+  border-radius: 25px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.ppl-pic {
+  object-fit: cover;
+  height: 100px;
+  width: auto;
+  border-radius: 25px 0px 0 25px;
+}
