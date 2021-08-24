@@ -9,7 +9,7 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .navbar {
@@ -128,11 +128,15 @@ h2 {
 .hebergement h2 {
   margin: 20px 30px;
 }
+.hebergement a {
+  margin: 20px 30px;
+  font-weight: 900;
+}
 .hbrgm_buble {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0 30px;
 }
 .hbrgm_buble h2 {
@@ -141,7 +145,8 @@ h2 {
 .hbrgm {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 250px;
+  height: 198px;
   border: white 5px solid;
   border-radius: 25px;
   background-color: white;
@@ -175,13 +180,10 @@ h2 {
   background-color: #f2f2f2;
   border-radius: 25px;
 }
-.populaire h2 {
-  margin: 20px 30px;
-}
 .ppl-titre {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin: 20px 20px 0;
 }
 .ppl_buble {
@@ -201,6 +203,8 @@ h2 {
   border-radius: 25px;
   background-color: white;
   margin-bottom: 20px;
+  width: 343px;
+  height: 144px;
 }
 .ppl-pic {
   object-fit: cover;
@@ -216,5 +220,6 @@ h2 {
 }
 .ppl-dsc div {
   display: flex;
+  justify-content: baseline;
   margin-top: 20px;
 }
