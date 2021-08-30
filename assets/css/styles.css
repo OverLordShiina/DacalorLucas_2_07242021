@@ -25,12 +25,29 @@ b {
 
 .navbar {
   display: flex;
-  padding: 1.5rem;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
 }
 .logo img {
   height: auto;
   width: 100px;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  padding-right: 20px;
+}
+.menu li:hover {
+  border-top: 5px #0065fc;
+}
+.nav-btn {
+  font-size: bold;
 }
 
 .description {
@@ -249,32 +266,51 @@ b {
   justify-content: space-between;
   padding: 30px;
 }
+.activite h3 {
+  padding: 10px;
+}
+.activite-d {
+  display: flex;
+  flex-direction: column;
+  max-width: 303px;
+  max-height: 446px;
+}
 .activite-big {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   width: 303px;
   height: 446px;
   border-radius: 25px;
   margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 15px lightgrey;
 }
 .activite-medium {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   width: 303px;
-  height: 236px;
+  height: 70%;
   border-radius: 25px;
   margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 15px lightgrey;
 }
 .activite-small {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   width: 303px;
-  height: 166px;
+  height: 30%;
   border-radius: 25px;
   margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 15px lightgrey;
 }
 .activite-pic {
   object-fit: cover;
   border-radius: 25px 25px 0 0;
   height: 100%;
+  max-height: 90%;
 }
