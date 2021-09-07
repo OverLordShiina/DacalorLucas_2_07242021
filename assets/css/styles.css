@@ -42,23 +42,29 @@ b {
   display: flex;
   align-items: center;
   height: 100%;
+  padding-right: 30px;
 }
 .menu li {
   display: flex;
   align-items: center;
   height: 100%;
   border-top: 5px solid transparent;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 .menu li a {
   text-decoration: none;
-  color: #0065fc;
+  color: grey;
 }
 .menu li:hover {
   border-color: #0065fc;
+  color: #0065fc;
 }
 .nav-btn {
-  font-size: bold;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0065fc;
+  padding-right: 30px;
 }
 
 .description {
@@ -123,7 +129,7 @@ b {
   display: flex;
   height: 50px;
   align-items: center;
-  border: gray solid 2px;
+  border: lightgrey solid 2.4px;
   border-radius: 60px;
   margin-right: 20px;
 }
@@ -172,6 +178,8 @@ b {
   margin-bottom: 20px;
 }
 .hebergement a {
+  text-decoration: none;
+  color: black;
   font-weight: 900;
   font-size: 1rem;
 }
@@ -193,7 +201,7 @@ b {
   border: white 5px solid;
   border-radius: 25px;
   background-color: white;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   box-shadow: 0px 0px 15px lightgrey;
 }
 .hbrgm-pic {
@@ -270,33 +278,39 @@ b {
   margin-top: auto;
 }
 .activite-titre {
-  margin-bottom: 30px;
   padding: 30px;
 }
 .activite {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 30px;
+  padding: 0 30px;
+  height: 446px;
 }
 .activite h3 {
+  display: flex;
+  align-items: center;
   flex: 1;
-  padding: 10px;
+  padding: 0 20px;
 }
-.activite-d {
+.activite-b {
   display: flex;
   flex-direction: column;
   max-width: 303px;
-  max-height: 446px;
+  justify-content: space-between;
 }
-.activite-big {
+.activite-c {
+  display: flex;
+  flex-direction: column;
+  max-width: 303px;
+  justify-content: space-between;
+}
+.activite-a {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   width: 303px;
-  height: 446px;
   border-radius: 25px;
-  margin-bottom: 20px;
   background-color: white;
   box-shadow: 0px 0px 15px lightgrey;
 }
@@ -305,9 +319,9 @@ b {
   display: flex;
   flex-direction: column;
   width: 303px;
-  height: 70%;
+  max-height: 240px;
   border-radius: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-color: white;
   box-shadow: 0px 0px 15px lightgrey;
 }
@@ -316,9 +330,8 @@ b {
   display: flex;
   flex-direction: column;
   width: 303px;
-  height: 30%;
+  height: 163px;
   border-radius: 25px;
-  margin-bottom: 20px;
   background-color: white;
   box-shadow: 0px 0px 15px lightgrey;
 }
@@ -326,5 +339,23 @@ b {
   object-fit: cover;
   border-radius: 25px 25px 0 0;
   height: 100%;
+}
+.activite-small img {
+  max-height: 70%;
+}
+.activite-a img {
   max-height: 90%;
+}
+.activite-medium img {
+  max-height: 80%;
+}
+.activite-c #lagarde {
+  height: 195px;
+}
+.activite-c #longchamp {
+  height: 210px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
 }
