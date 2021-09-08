@@ -5,6 +5,8 @@
 body {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
+  max-width: 1440px;
+  margin: auto;
 }
 h1 {
   font-weight: bold;
@@ -57,6 +59,8 @@ b {
 }
 .menu li:hover {
   border-color: #0065fc;
+}
+.menu li:hover a {
   color: #0065fc;
 }
 .nav-btn {
@@ -132,7 +136,7 @@ b {
   align-items: center;
   border: lightgrey solid 2.4px;
   border-radius: 60px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .fltr-icn {
   background-color: #deebff;
@@ -301,12 +305,6 @@ b {
   max-width: 303px;
   justify-content: space-between;
 }
-.activite-c {
-  display: flex;
-  flex-direction: column;
-  max-width: 303px;
-  justify-content: space-between;
-}
 .activite-a {
   box-sizing: border-box;
   display: flex;
@@ -351,10 +349,10 @@ b {
 .activite-medium img {
   max-height: 80%;
 }
-.activite-c #lagarde {
+.activite-b #lagarde {
   height: 195px;
 }
-.activite-c #longchamp {
+.activite-b #longchamp {
   height: 210px;
 }
 .footer {
