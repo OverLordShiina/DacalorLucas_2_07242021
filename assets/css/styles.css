@@ -128,7 +128,7 @@ b {
   font-size: 1rem;
   font-family: "Raleway", sans-serif;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 992px) {
   .search-bar_input {
     padding: 0 1rem;
   }
@@ -183,6 +183,11 @@ b {
   border: lightgrey solid 2px;
   border-radius: 60px;
   margin-right: 30px;
+}
+@media (max-width: 992px) {
+  .filtre-btn {
+    margin-bottom: 1rem;
+  }
 }
 @media (max-width: 575.98px) {
   .filtre-btn {
@@ -292,6 +297,11 @@ b {
   margin-bottom: 30px;
   box-shadow: 0px 0px 15px lightgrey;
 }
+@media (max-width: 850px) {
+  .hbrgm {
+    width: 45%;
+  }
+}
 @media (max-width: 575.98px) {
   .hbrgm {
     width: 100%;
@@ -363,7 +373,7 @@ b {
     flex-wrap: nowrap;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .ppl_buble {
     flex-wrap: wrap;
   }
@@ -385,6 +395,11 @@ b {
 @media (max-width: 1200px) {
   .ppl {
     margin-right: 1rem;
+  }
+}
+@media (max-width: 992px) {
+  .ppl {
+    flex-grow: 1;
   }
 }
 @media (max-width: 575.98px) {
@@ -453,6 +468,12 @@ b {
     width: 15rem;
   }
 }
+@media (max-width: 1100px) {
+  .activite-a {
+    width: 45%;
+    height: 200px;
+  }
+}
 @media (max-width: 575.98px) {
   .activite-a {
     margin-bottom: 1.5rem;
@@ -472,8 +493,16 @@ b {
     gap: 1.5rem;
   }
 }
+@media (max-width: 1100px) {
+  .activite-b {
+    order: 2;
+    width: 45%;
+    gap: unset;
+  }
+}
 @media (max-width: 575.98px) {
   .activite-b {
+    order: unset;
     width: 100%;
     gap: unset;
   }
@@ -486,6 +515,28 @@ b {
   border-radius: 25px;
   background-color: white;
   box-shadow: 0px 0px 15px lightgrey;
+}
+.activite-b #lagarde {
+  height: 195px;
+}
+@media (max-width: 1100px) {
+  .activite-b #lagarde {
+    height: 200px;
+  }
+}
+.activite-b #longchamp {
+  height: 210px;
+}
+@media (max-width: 1100px) {
+  .activite-b #longchamp {
+    height: 200px;
+  }
+}
+@media (max-width: 1100px) {
+  .activite-medium {
+    margin-bottom: 1.5rem;
+    height: 200px;
+  }
 }
 @media (max-width: 575.98px) {
   .activite-medium {
@@ -503,6 +554,12 @@ b {
   background-color: white;
   box-shadow: 0px 0px 15px lightgrey;
 }
+@media (max-width: 1100px) {
+  .activite-small {
+    margin-bottom: 1.5rem;
+    height: 200px;
+  }
+}
 @media (max-width: 575.98px) {
   .activite-small {
     margin-bottom: 1.5rem;
@@ -518,22 +575,21 @@ b {
 .activite-small img {
   max-height: 70%;
 }
+@media (max-width: 1100px) {
+  .activite-small img {
+    max-height: 80%;
+  }
+}
 .activite-a img {
   max-height: 90%;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 1100px) {
   .activite-a img {
     max-height: 80%;
   }
 }
 .activite-medium img {
   max-height: 80%;
-}
-.activite-b #lagarde {
-  height: 195px;
-}
-.activite-b #longchamp {
-  height: 210px;
 }
 .footer {
   display: flex;
