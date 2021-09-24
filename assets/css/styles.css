@@ -458,14 +458,14 @@ b {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 19rem;
+  width: 303px;
   border-radius: 25px;
   background-color: white;
   box-shadow: 0px 0px 15px lightgrey;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .activite-a {
-    width: 15rem;
+    width: 240px;
   }
 }
 @media (max-width: 1100px) {
@@ -485,11 +485,11 @@ b {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 19rem;
+  width: 303px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .activite-b {
-    width: 15rem;
+    width: 240px;
     gap: 1.5rem;
   }
 }
