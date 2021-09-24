@@ -421,7 +421,6 @@ b {
 }
 .ppl-dsc div {
   display: flex;
-  justify-content: baseline;
   margin-top: auto;
 }
 .activite-titre {
@@ -615,7 +614,7 @@ b {
   }
 }
 .footer h3 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .footer li {
   margin-bottom: 20px;
