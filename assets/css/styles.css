@@ -5,8 +5,6 @@
 body {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
-  max-width: 1440px;
-  margin: auto;
 }
 h1 {
   font-weight: bold;
@@ -24,7 +22,10 @@ h3 {
 b {
   font-weight: 700;
 }
-
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -423,14 +424,16 @@ b {
   display: flex;
   margin-top: auto;
 }
+.activite-section {
+  padding: 1.5rem;
+}
 .activite-titre {
-  padding: 30px;
+  margin-bottom: 30px;
 }
 .activite {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 30px;
   height: 446px;
   margin-bottom: 50px;
   gap: 1.5rem;
@@ -591,16 +594,21 @@ b {
   max-height: 80%;
 }
 .footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   background-color: #f2f2f2;
-  padding: 30px;
 }
 @media (max-width: 768px) {
   .footer {
     flex-wrap: wrap;
   }
+}
+.footer-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
+  padding: 1.5rem;
 }
 .apropos {
   display: flex;
