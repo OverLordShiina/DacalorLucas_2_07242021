@@ -613,6 +613,12 @@ b {
   max-width: 1440px;
   margin: auto;
   padding: 1.5rem;
+  column-gap: 2rem;
+}
+@media (max-width: 575.98px) {
+  .footer-container {
+    flex-direction: column;
+  }
 }
 .apropos {
   display: flex;
@@ -625,8 +631,13 @@ b {
     margin-bottom: 1.25rem;
   }
 }
+@media (max-width: 575.98px) {
+  .apropos {
+    width: 100%;
+  }
+}
 .footer h3 {
-  margin-bottom: 20px;
+  margin-bottom: 0.5rem;
 }
 .footer li {
   margin-bottom: 20px;
@@ -644,6 +655,10 @@ b {
   .noshebergements {
     margin-right: unset;
     margin-bottom: 1.25rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .noshebergements {
     width: 100%;
   }
 }
@@ -656,5 +671,10 @@ b {
   .assistance {
     margin-right: unset;
     margin-bottom: 1.25rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .assistance {
+    width: 100%;
   }
 }
